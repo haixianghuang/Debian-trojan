@@ -225,7 +225,7 @@ server {
     #}
 }
 EOF
-  wget https://raw.githubusercontent.com/pzwsquare/trojan/master/web.zip
+  wget https://raw.githubusercontent.com/haixianghuang/Debian-trojan/master/web.sh
     unzip web.zip
   rm -rf /usr/share/nginx/html/*
   mv ./index.html /usr/share/nginx/html/
@@ -684,9 +684,6 @@ while true; do
   green " ========================================================================"
   green " 简介：debian一键安装trojan"
   green " 系统：>=debian9"
-  green " Youtube：米月"
-  green " 电报群：https://t.me/mi_yue"
-  green " Youtube频道地址：https://www.youtube.com/channel/UCr4HCEgaZ0cN5_7tLHS_xAg"
   green " ========================================================================"
   echo
   green  " 1. 一键安装trojan"
@@ -776,9 +773,6 @@ while true; do
 		green " ========================================================================="
 		green " 简介：debian一键安装trojan"
 		green " 系统：>=debian9"
-		green " Youtube：米月"
-		green " 电报群：https://t.me/mi_yue"
-		green " Youtube频道地址：https://www.youtube.com/channel/UCr4HCEgaZ0cN5_7tLHS_xAg"
 		green " ========================================================================="
 		green " Trojan已安装完成，复制下面的信息，在OP里进行配置"
 		red   " 服务器地址：$domain"
