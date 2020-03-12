@@ -225,7 +225,7 @@ server {
     #}
 }
 EOF
-  wget https://raw.githubusercontent.com/haixianghuang/Debian-trojan/master/web.sh
+  wget https://raw.githubusercontent.com/haixianghuang/Debian-trojan/master/web.zip
     unzip web.zip
   rm -rf /usr/share/nginx/html/*
   mv ./index.html /usr/share/nginx/html/
